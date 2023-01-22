@@ -55,7 +55,13 @@ npm start
 ```
 /memes?subreddits=<subreddit1>,<subreddit>:<last_post_id>&filter=<filter>&max=<max>
 ```
+### `/memes/random`
 
+```
+/memes/random
+or
+/memes/random?subreddits=<subreddit1>,<subreddit>:<last_post_id>&filter=<filter>&max=<max>
+```
 | Parameter  | Description                                                                               | Example                                               |
 | ---------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | subreddits | Comma separated list of subreddits. Use colon to separate if you need to set last post id | subreddits=wholesomememes:`lastIdLOL`,memes,dankmemes |
