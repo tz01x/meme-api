@@ -1,6 +1,6 @@
 {
 	"name": "meme-backend",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Api for getting meme from reddit",
 	"main": "index.js",
 	"type": "module",
@@ -25,6 +25,7 @@
 		"axios": "^0.26.1",
 		"cors": "^2.8.5",
 		"express": "^4.17.3",
+		"node-cache":"^5.1.2",
 		"serverless-http": "^3.0.1"
 	},
 	"devDependencies": {
