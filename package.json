@@ -7,12 +7,20 @@
 	"scripts": {
 		"start": "nodemon index.js"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/harry260/meme-api.git"
+	},
 	"keywords": [
 		"Meme",
 		"Reddit"
 	],
 	"author": "Harry",
 	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/harry260/meme-api/issues"
+	},
+	"homepage": "https://github.com/harry260/meme-api#readme",
 	"dependencies": {
 		"axios": "^0.26.1",
 		"cors": "^2.8.5",
