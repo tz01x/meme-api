@@ -1,10 +1,10 @@
-# Memes Api
+# Memes Api v2
 
 <h1 align="center">
    <br>
     <img src="./public/images/icon.png" alt="Bob The Bot" width="200">
    <br>
-   Memable API<br>
+   Memable API v2<br>
 </h1>
 
 <h4 align="center">
@@ -31,7 +31,7 @@
 ### Clone the repo
 
 ```bat
-git clone https://github.com/harry260/meme-api
+git clone https://github.com/tz01x/meme-api
 ```
 
 #### Install dependencies
@@ -89,13 +89,5 @@ or
 
 You can deploy this to either Vercel or Railway or any other hosting service.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/eG-c3u?referralCode=Xot9yF)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftz01x%2Fmeme-api&project-name=memeable-api&repo-name=meme-api-repo)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fharry260%2Fmeme-api&project-name=memeable-api&repo-name=meme-api-repo)
-
-## Show your support
-
-Show your support by 🌟 Starring this repo or buy me a coffee!
-<br><br>
-<a href="https://www.buymeacoffee.com/harrytom" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a><br>
-<br>
