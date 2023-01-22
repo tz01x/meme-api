@@ -1,9 +1,9 @@
-import express from "express";
-import getParameterObj from "./lib/utils.js";
-import Memes from "./lib/memes.js";
-import Reddit from "./lib/reddit.js";
-import cors from "cors";
-import packageJSON from "./package.json" assert { type: "json" };
+const express = require("express");
+const {getParameterObj} = require("./lib/utils.js");
+const {Memes} = require("./lib/memes.js");
+const {Reddit} = require("./lib/reddit.js");
+const cors = require("cors");
+const packageJSON = require("./package.json");
 
 const app = express();
 const port = process.env.PORT || 4000;
