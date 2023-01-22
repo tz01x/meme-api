@@ -62,6 +62,7 @@ npm start
 | filter     | Add filter (`hot`\|`top`\|`new`\|`controversial` \| `raising`)                            | filter=hot                                            |
 | max        | Maximum number of memes from each subreddit. Doesn't mean the exact count.                | max=50                                                |
 | time     | Add timestamp (`hour`\| `day`\| `week`\| `month` \| `year`\| `all`)                            | time=day 
+| author        | fetch full author details about the post (default is author username)                | auther=all                                                |
 
 
 #### Example request & response
