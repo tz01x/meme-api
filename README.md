@@ -55,14 +55,21 @@ npm start
 ```
 /memes?subreddits=<subreddit1>,<subreddit>:<last_post_id>&filter=<filter>&max=<max>
 ```
+### `/memes/random`
 
+```
+/memes/random
+or
+/memes/random?subreddits=<subreddit1>,<subreddit>:<last_post_id>&filter=<filter>&max=<max>
+```
 | Parameter  | Description                                                                               | Example                                               |
 | ---------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | subreddits | Comma separated list of subreddits. Use colon to separate if you need to set last post id | subreddits=wholesomememes:`lastIdLOL`,memes,dankmemes |
 | filter     | Add filter (`hot`\|`top`\|`new`\|`controversial` \| `raising`)                            | filter=hot                                            |
 | max        | Maximum number of memes from each subreddit. Doesn't mean the exact count.                | max=50                                                |
+| time     | Add timestamp (`hour`\| `day`\| `week`\| `month` \| `year`\| `all`)                            | time=day 
+| author        | fetch full author details about the post (default is author username)                | auther=all                                                |
 
-````
 
 #### Example request & response
 
