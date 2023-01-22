@@ -61,8 +61,8 @@ npm start
 | subreddits | Comma separated list of subreddits. Use colon to separate if you need to set last post id | subreddits=wholesomememes:`lastIdLOL`,memes,dankmemes |
 | filter     | Add filter (`hot`\|`top`\|`new`\|`controversial` \| `raising`)                            | filter=hot                                            |
 | max        | Maximum number of memes from each subreddit. Doesn't mean the exact count.                | max=50                                                |
+| time     | Add timestamp (`hour`\| `day`\| `week`\| `month` \| `year`\| `all`)                            | time=day 
 
-````
 
 #### Example request & response
 
