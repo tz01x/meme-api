@@ -15,7 +15,26 @@ app.use(
 );
 
 app.use("/favicon.ico", express.static("public/images/icon.png"));
+app.get(
+	"/memes/random",
+	(req, res) => {
+		res.setHeader("Access-Control-Allow-Origin", "*");
+		res.setHeader("Access-Control-Allow-Methods", "GET");
+		res.setHeader(
+			"Access-Control-Allow-Headers",
+			"X-Requested-With,content-type"
+		);
+		res.setHeader("Access-Control-Allow-Credentials", true);
 
+		const parameters = getParameterObj(req.query);
+		const meme = new Memes(parameters);
+		meme.getRendomMemes((data)=>{
+			res.status(200).send(data);
+		});
+		
+	},
+	cors()
+);
 app.get(
 	"/memes",
 	(req, res) => {
