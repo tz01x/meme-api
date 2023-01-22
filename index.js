@@ -27,11 +27,8 @@ app.get(
 		);
 		res.setHeader("Access-Control-Allow-Credentials", true);
 
-		var subreddits = req.query.subreddits;
-		var max = req.query.max;
-		var filter = req.query.filter;
 		var send = false;
-		var parameters = getParameterObj(subreddits, max, filter);
+		var parameters = getParameterObj(req.query);
 		var meme = new Memes(parameters);
 
 		meme.getMultipleSubreddits((data) => {
